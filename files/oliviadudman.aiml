@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<!-- Standard Response -->
+<!-- Standard Response -->
+	<category>
+	    <pattern>*</pattern>
+	    <template>I do not have an answer for that</template>
+    </category>
+    
+<!-- population -->
+    <category>
+        <pattern>What is the population of Bristol</pattern>
+        <template>The population of Bristol is over 450000</template>
+    </category>
+
+    <category>
+        <pattern>how many people live in bristol</pattern>
+        <template><srai>WHAT IS THE POPULATION OF BRISTOL</srai></template>
+    </category>
+
+        
+    <category>
+        <pattern>What is the population of London</pattern>
+        <template>The population of London is about 8.7 million</template>
+    </category>
+
+    <category>
+        <pattern>how many people live in London</pattern>
+        <template><srai>WHAT IS THE POPULATION OF LONDON</srai></template>
+    </category>
+
+        
+    <category>
+        <pattern>What is the population of Cardiff</pattern>
+        <template>The population of Cardiff is over 360000</template>
+    </category>
+    
+    <category>
+        <pattern>how many people live in cardiff</pattern>
+        <template><srai>WHAT IS THE POPULATION OF CARDIFF</srai></template>
+    </category>
+        
+
+</aiml>
